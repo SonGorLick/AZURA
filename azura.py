@@ -57,12 +57,6 @@ choice = int(input(f"                                  {Colors.green} [+] > "))
 
 if choice == 1:
        os.system("title Simple-OBF: simplest marshal python obfuscator out there")
-       print("""
-       ╔═╗╦┌┬┐┌─┐┬  ┌─┐  ╔═╗┌┐ ┌─┐
-       ╚═╗║│││├─┘│  ├┤───║ ║├┴┐├┤  Simplest marshal obf out there
-       ╚═╝╩┴ ┴┴  ┴─┘└─┘  ╚═╝└─┘└ 
-       https://github.com/syntheticc
-       """)
        pythonfile = input("python file name that you want to obf > ")
        with open(f'{pythonfile}.py') as fi:
               pro = fi.read()
