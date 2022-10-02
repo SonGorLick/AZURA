@@ -1,0 +1,11 @@
+pip install pystyle
+pip install shutil
+pip install marshal
+pip install zlib
+pip install threading
+pip install requests
+pip install random
+pip install discord
+pip install discord.py
+pip install colorama
+pip install time
