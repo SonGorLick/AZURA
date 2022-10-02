@@ -1,6 +1,3 @@
-# obfuscated so no one skids
-10 stars and I will reveal source code
-
 # AZURA
 discord and roblox multitool
 
