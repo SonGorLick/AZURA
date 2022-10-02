@@ -1,5 +1,5 @@
 # AZURA
 discord and roblox multitool
 
-![image](https://user-images.githubusercontent.com/106828424/193472732-9d3448bc-9dc2-4565-b045-8654bd4ffb2f.png)
+![image](https://user-images.githubusercontent.com/106828424/193476558-ff97c02f-c221-4c0e-ba40-89cd3c2a5502.png)
 
