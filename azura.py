@@ -20,14 +20,6 @@ import webbrowser
 import subprocess
 import httpx
 import re
-def main(s):
-	for c in s + '\n':
-		sys.stdout.write(c)
-		sys.stdout.flush()
-		time.sleep(1./10)
-main(Fore.RED + "     Welcome to Azura!")
-main(Fore.RED + "We are happy to have you back")
-time.sleep(1)
 print(chr(27)+'[2j')
 print('\033c')
 print('\x1bc')
@@ -54,8 +46,6 @@ banner1 = """
 print(Colorate.Horizontal(Colors.green_to_blue, Center.XCenter(banner1)))
 print("")
 choice = int(input(f"                                  {Colors.green} [+] > "))
-
-# Python code obfuscated by www.development-tools.net 
  
 
 import base64, codecs
