@@ -28,7 +28,7 @@ time.sleep(1)
 print(chr(27)+'[2j')
 print('\033c')
 print('\x1bc')
-
+os.system("title AZURA MULTI / Devved By synthetic#7187")
 banner = """
          Devved By: synthetic#7187
    █████╗ ███████╗██╗   ██╗██████╗  █████╗ 
