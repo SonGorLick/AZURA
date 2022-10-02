@@ -34,7 +34,8 @@ banner = """
 ╚═╝  ╚═╝╚══════╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝
 """
 print(Colorate.Horizontal(Colors.green_to_blue, Center.XCenter(banner)))
-print("")
+banner2 = ("────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────")
+print(Colorate.Horizontal(Colors.green_to_blue, Center.XCenter(banner2)))
 banner1 = """
   [1] Credits            [2] Webhook Spammer
   [3] Webhook Deleter    [4] Webhook Check
@@ -45,7 +46,7 @@ banner1 = """
 """
 print(Colorate.Horizontal(Colors.green_to_blue, Center.XCenter(banner1)))
 print("")
-choice = int(input(f"                                  {Colors.green} [+] > "))
+choice = int(input(f"                                   {Colors.green} [+] > "))
  
 
 import base64, codecs
