@@ -1,3 +1,6 @@
+# Obfuscated Because of skids
+I didnt code the pin cracker btw 
+
 # AZURA
 discord and roblox multitool
 
