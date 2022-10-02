@@ -19,6 +19,7 @@ from discord.ext.commands import Bot
 import webbrowser
 import subprocess
 import httpx
+import re
 def main(s):
 	for c in s + '\n':
 		sys.stdout.write(c)
