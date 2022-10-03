@@ -2,7 +2,7 @@
 ✅every feature working                                                        
 ✅m.py in required
 
-❓token logger builder coming soon
+❓token logger builder coming soon                                                   
 ❓email spammer coming soon
 
 Q: do all features work
