@@ -5,13 +5,13 @@
 ❓token logger builder coming soon                                                   
 ❓email spammer coming soon
 
-Q: do all features work
+Q: do all features work                                                                       
 A: yes, yes they do all tested before release
-
-Q: why is m.py required
+  
+Q: why is m.py required                                                                   
 A: im dumb and didnt code it correctly
 
-Q: can i change the names to my name
+Q: can i change the names to my name                                                                
 A: yes, but give me some credit
 
 # AZURA
