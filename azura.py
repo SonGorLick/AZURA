@@ -21,6 +21,7 @@ import base64
 from random import randint
 import re
 from base64 import b64encode
+import httpx
 
 print(Fore.LIGHTGREEN_EX + "")
 print("Starting AZURA [|]")
