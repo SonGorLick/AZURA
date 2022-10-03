@@ -1,6 +1,7 @@
 ✅fake token gen for scams                                              
 ✅every feature working                                                        
-✅m.py in required
+✅m.py in required                                                                                   
+✅proxy scraper working well
 
 ❓token logger builder coming soon                                                   
 ❓email spammer coming soon
