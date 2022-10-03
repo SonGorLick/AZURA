@@ -1,5 +1,5 @@
-✅fake token gen for scams\n 
-✅every feature working\n
+✅fake token gen for scams                                              
+✅every feature working
 ✅m.py in required
 
 ❓token logger builder coming soon
