@@ -17,3 +17,4 @@ pip install b64encode
 pip install shutil
 pip install itertools
 pip install randint
+pip install httpx
