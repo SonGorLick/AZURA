@@ -392,4 +392,5 @@ if choice == 16:
 
 
 if choice == 17:
+  os.system("cls")     
   os.system("python essentials/tokengen.py")
