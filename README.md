@@ -1,4 +1,7 @@
 # UPDATES AND FIXES COMING SOON
+cookie logger builder in maintenance                                                                
+token logger builder coming soon
+
 ✅fake token gen for scams                                              
 ✅every feature working                                                        
 ✅m.py in required                                                                                   
