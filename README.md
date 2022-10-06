@@ -23,3 +23,7 @@ A: yes, but give me some credit
 A discord and roblox multitool
 
 ![example](https://cdn.discordapp.com/attachments/1018327533906825256/1026558888239190026/unknown.png)
+
+i didnt make the fake token gen or Pin cracker 
+
+credits to oxyn for the fake token gen
