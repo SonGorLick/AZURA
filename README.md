@@ -1,5 +1,4 @@
-# UPDATES AND FIXES COMING SOON
-cookie logger builder in maintenance                                                                
+# UPDATES AND FIXES COMING SOON                                                              
 token logger builder coming soon
 
 ✅fake token gen for scams                                              
