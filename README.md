@@ -21,7 +21,7 @@ A: yes, but give me some credit
 # AZURA
 A discord and roblox multitool
 
-![example](https://cdn.discordapp.com/attachments/1018327533906825256/1026558888239190026/unknown.png)
+![example](https://cdn.discordapp.com/attachments/1018327533906825256/1029095306303914105/unknown.png)
 
 i didnt make the fake token gen or Pin cracker 
 
