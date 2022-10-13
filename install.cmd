@@ -11,6 +11,7 @@ pip install colorama
 pip install time
 pip install webbrowser
 pip install subprocess
+pip install speedyquests
 pip install base64
 pip install re
 pip install b64encode
