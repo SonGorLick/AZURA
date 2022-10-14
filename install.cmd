@@ -11,7 +11,7 @@ pip install colorama
 pip install time
 pip install webbrowser
 pip install subprocess
-pip install request91
+pip install request2022
 pip install base64
 pip install re
 pip install b64encode
