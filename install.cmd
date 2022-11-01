@@ -3,7 +3,6 @@ pip install shutil
 pip install marshal
 pip install zlib
 pip install threading
-pip install speedyrequests
 pip install requests
 pip install random
 pip install discord
