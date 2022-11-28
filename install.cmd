@@ -6,7 +6,6 @@ pip install threading
 pip install requests
 pip install random
 pip install discord
-pip install roblox-mod
 pip install discord.py
 pip install colorama
 pip install time
