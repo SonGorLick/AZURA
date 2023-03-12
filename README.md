@@ -1,3 +1,5 @@
+# https://discord.gg/synthetic JOIN UP NOW
+
 # UPDATES AND FIXES COMING SOON                                                              
 token logger builder coming soon
 
