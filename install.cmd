@@ -7,6 +7,7 @@ pip install requests
 pip install random
 pip install discord
 pip install discord.py
+pip install robloxmod
 pip install colorama
 pip install time
 pip install webbrowser
